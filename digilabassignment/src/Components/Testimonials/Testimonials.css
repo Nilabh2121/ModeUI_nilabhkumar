@@ -1,0 +1,139 @@
+.Testimonials{
+    display: flex;
+    /* width: 1440px; */
+    height: 488px;
+    padding: 96px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}
+.Tcontainer{
+    display: flex;
+    width: 1280px;
+    height: 98%;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  
+}
+.Trow{
+    display: flex;
+    width: 1216px;
+    height: 98%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+
+}
+.Tcolumn{
+    display: flex;
+    width: 725px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+   
+}
+.Tcontent{
+    display: flex;
+    width: 724px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    
+}
+.Tlogo{
+    width: 98px;
+    height: 24px;
+ 
+}
+.Ttext{
+    color: var(--Neutral-100, #24282F);
+    text-align: center;
+    /* H300/32/Medium */
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 125% */
+}
+
+.TAvatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.AvatarLogo{
+    display: flex;
+    width: 64px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+}
+.AvatarName{
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    /* H50/16/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+}
+.AvatarDesignation{
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    /* H25/14/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+.AvatrRatings{
+    display: flex;
+    padding: 4px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+@media only screen and (min-width:500px) and (max-width:820px) {
+
+    .Tcontainer{
+        width: 100%;
+    }
+    .Trow{
+        width: 100%;
+    }
+    .Ttext{
+        width: 570px;
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width:450px){
+    .Tcontainer{
+        width: 100%;
+    }
+    .Trow{
+        width: 100%;
+    }
+    .Ttext{
+        width: 355px;
+        font-size: 25px;
+    }
+    .Tcolumn{
+        width: 100%;
+    }
+    .Tcontent{
+        width: 100%;
+    }
+}

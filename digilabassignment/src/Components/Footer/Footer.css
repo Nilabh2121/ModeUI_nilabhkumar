@@ -1,0 +1,259 @@
+.Footer{
+    display: flex;
+    height: 720px;
+    padding: 96px 80px 40px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-top: 1px solid var(--Neutral-900, #E6E7E9);
+    background: var(--White, #FFF); 
+    
+}
+.FooterContainer{
+    width: 1216px;
+    height: 584px;
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+  
+}
+.Footerow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+  
+}
+.content1start{
+    display: flex;
+    width: 512px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.footercontent1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+  
+}
+.fmainlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.fmaincontent{
+    width: 430px;
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+   
+}
+
+.divider{
+    width: 1216px;
+    height: 1px;
+    background: #F1F1F2;
+}
+
+.content1end{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.Companyylist{
+    display: flex;
+    width: 188px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    list-style: none;
+    color: var(--Neutral-100, #24282F);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+}
+.litagname{
+    color: var(--Neutral-200, #363C46);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+}
+
+.footercontent2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.copyrighttext{
+    width: 1216px;
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    /* H25/14/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+@media only screen and (min-width:500px) and (max-width:820px) {
+    .Footer{
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .fmaincontent{
+        height: 100%;
+        width: 520px;
+        font-size: 16px;
+    }
+    .content1end{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-direction:column;
+        justify-content: flex-start;
+        /* align-items: center; */
+        gap: 64px;
+        position: relative;
+        right: 10%;
+    }
+    .footercontent1{
+        width: 100%;
+    }
+    .FooterContainer{
+        width: 100%;
+        height: 100%;
+    }
+    .Footerow{
+        width: 100%;
+        height: 100%;
+    }
+    .divider{
+        width: 100%;
+    }
+    .footercontent2{
+        width: 100%;
+    }
+    .copyrighttext {
+        width: 100%;
+    }
+    .company{
+        display: grid;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .Companyylist{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;    
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width:450px){
+    .FooterContainer{
+        width: 100%;
+    }
+    .content1start{
+        /* width: 100%; */
+        width: 343px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 12%;
+    }
+    .footercontent1{
+        width: 100%;
+    }
+    .content1end{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction:column;
+        justify-content: flex-start;
+        /* align-items: center; */
+        gap: 64px;
+        position: relative;
+        right: 10%;
+    }
+    .footercontent1{
+        display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+    .FooterContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        right: 10%;
+    }
+    .Footerow{
+        width: 100%;
+        height: 100%;
+    }
+    .divider{
+        width: 100%;
+    }
+    .footercontent2{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        right: 10%;
+    }
+    .copyrighttext {
+        width: 210px;
+        display: flex;
+        text-align: justify;
+
+    }
+    .Footer{
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .fmaincontent{
+        width: 390px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .divider{
+        width: 120%;
+    }
+}

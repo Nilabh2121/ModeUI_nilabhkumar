@@ -1,0 +1,287 @@
+.Feature1{
+    display: flex;
+    height: 504px;
+    /* width: 1440px; */
+    padding: 96px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* border: 2px solid red; */
+}
+.F1Container{
+    display: flex;
+    width: 90%;
+    height: 504px;
+    padding: 0px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* border: 2px solid red; */
+}
+.Frow{
+    display: flex;
+    width: 98%;
+    height: 504px;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 96px;
+    /* border: 2px solid rgb(13, 7, 7); */
+}
+.Fsubtitle{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    /* top: 0; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* border: 2px solid rgb(18, 228, 18); */
+}
+.Fcloumn{
+    display: flex;
+    width: 106%;
+    /* height: 50%; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    /* border: 2px solid rgb(18, 228, 18); */
+}
+.Fcontent{
+    display: flex;
+    height: 100%;
+    width: 704px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    /* border: 2px solid rgb(13, 7, 7); */
+}
+.FTitle{
+    /* align-self: stretch; */
+    width: 576px;
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    /* H400/40/SemiBold */
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 120% */
+}
+.Fparatext{
+    width: 576px;
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    /* Para/Medium/Regular */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+.Fbtn{
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    border-radius: 10px;
+    color: #582066;
+    /* background: var(--Pri-Purple-400, #F4EFF6); */
+}
+.Fcoloumn1{
+    width: 306px;
+    height: 100%;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h5text1{
+    position: relative;
+    bottom: 15%;
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    /* H50/16/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    /* border: 2px solid red; */
+}
+.h5text2{
+    position: relative;
+    bottom: 15%;
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    /* H50/16/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    /* border: 2px solid red; */
+}.h5text3{
+    position: relative;
+    bottom: 15%;
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    /* H50/16/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    /* border: 2px solid red; */
+}
+.Fptext1{
+    position: relative;
+    bottom: 25%;
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    /* Para/xSmall/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* border: 2px solid red; */
+}
+.Fptext2{
+    position: relative;
+    bottom: 25%;
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    /* Para/xSmall/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* border: 2px solid red; */
+}
+.Fptext3{
+    position: relative;
+    bottom: 25%;
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    /* Para/xSmall/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* border: 2px solid red; */
+}
+.FCimg1{
+    position: relative;
+    bottom: 8%;
+    transform: scale(0.9);
+    /* border: 2px solid red; */
+}
+.FCimg2{
+    position: relative;
+    bottom: 8%;
+    transform: scale(0.9);
+    /* border: 2px solid red; */
+}
+.FCimg3{
+    position: relative;
+    bottom: 8%;
+    transform: scale(0.9);
+    /* border: 2px solid red; */
+}
+
+@media only screen and (min-width:500px) and (max-width:820px) {
+    .Feature1{
+        display: flex;
+        width: 740px;
+        height: 100%;
+        padding: 96px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    .Fparatext{
+        display: flex;
+        width: 480px;
+        position: relative;
+        bottom: 8%;
+    }
+    .Fbtn{
+        display: flex;
+        position: relative;
+        bottom: 5%;
+    }
+    .F1Container{
+        height: 100%;
+    }
+    .Fcloumn{
+        display: flex;
+        flex-direction: column;
+    }
+    .Frow{
+        height: 100%;
+    }
+    .Fcoloumn1{
+        height: 90%;
+    }
+    .FCimg1{
+        display: flex;
+        position: relative;
+        bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width:450px){
+    .Feature1{
+        display: flex;
+        height: 100%;
+        padding: 96px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    .Fcontent{
+        width: 100%;
+    }
+    .Fparatext{
+        display: flex;
+        width: 343px;
+        font-size: 18px;
+        position: relative;
+        bottom: 8%;
+    }
+    .Fbtn{
+        display: flex;
+        position: relative;
+        bottom: 5%;
+    }
+    .F1Container{
+        height: 100%;
+        display: flex;
+        position: relative;
+    }
+    .Fcloumn{
+        display: flex;
+        flex-direction: column;
+    }
+    .Frow{
+        height: 100%;
+    }
+    .Fcoloumn1{
+        height: 90%;
+    }
+    .FCimg1{
+        display: flex;
+        position: relative;
+        bottom: 5%;
+    }
+    .FTitle{
+        width: 343px;
+    }
+}

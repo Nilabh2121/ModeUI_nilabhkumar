@@ -1,0 +1,68 @@
+.Announcement{
+    display: flex;
+    height: 20px;
+    padding: 0.6vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6vw;
+
+    border-bottom: 1px solid var(--Neutral-1000, #E6E7E9);
+    background: var(--White, #FFF);
+}
+.AContainer{
+    display: flex;
+    /* width: 100cqw; */
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2vw;  
+}
+.Badges{
+    display: flex;
+    padding: 0.4vw 0.6vw;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vw;
+
+    border-radius: 40vw;
+    border: 1px solid var(--Neutral-1000, #E6E7E9);
+    background: var(--Neutral-1300, #F1F1F2);
+ }
+ .Atext{
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+    /* H25/14/Medium */
+    font-family: Inter;
+    font-size: 2.667vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2vw; /* 142.857% */
+ }
+
+
+ @media only screen and (min-width:500px) and (max-width:820px) {
+    .AText{
+        font-size: 15px;
+    }
+    .AContainer{
+       gap: 20px;
+    }
+   
+ }
+ @media only screen and (min-width: 350px) and (max-width:450px){
+    .Announcement{
+        width: 96%;
+        height: 100%;
+        display: flex;
+        padding: 8px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.2vw;
+    } 
+    .AContainer{
+        gap: 4.2vw;
+    }
+ }

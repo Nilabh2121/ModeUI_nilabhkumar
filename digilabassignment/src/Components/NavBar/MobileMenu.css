@@ -1,0 +1,31 @@
+/* MobileMenu.css */
+.MobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .CrossButton {
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
